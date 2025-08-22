@@ -10,7 +10,7 @@ class questaoUm {
 
         System.out.println("Digite seu ano de nascimento:");
         var ano = leitura.nextInt();
-        int anoAtual = Year.now().getValue(); // Assim o ano fica mutável ao presente, sem alterção manual.
+        int anoAtual = Year.now().getValue(); // Assim o ano fica mutável ao presente, sem alteração manual.
         var idade = anoAtual - ano;
 
         System.out.printf("Olá %s, você tem %d anos\n", nome, idade);
